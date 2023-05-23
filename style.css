@@ -41,8 +41,8 @@
 /*Fiz de uma forma que ambos apareçam na tela de formas diferentes*/
 /*@keyframes enteringProfile {
   /* Formas de fazer o Frame*/
-  /*0% { background-color: #ed5636;}*/ /*Deixei comentado para usar posteriormente*/
-  /*30% { background-color: green;}
+/*0% { background-color: #ed5636;}*/ /*Deixei comentado para usar posteriormente*/
+/*30% { background-color: green;}
   /*78% { opacity: 0;}
   100% { opacity: 1;}
 
@@ -94,7 +94,7 @@ nav {
 
 .memory img {
   width: 100%;
-  height: 280px;
+  height: 200px;
   object-fit: cover;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
@@ -166,11 +166,11 @@ aside span {
   body {
     grid-template-columns: 1fr;
     grid-template-rows: 0.2gr 0.8fr;
-    grid-template-areas: 
-    "profile"
-    "timeline";
+    grid-template-areas:
+      "profile"
+      "timeline";
   }
-  
+
   aside {
     border-right: none;
     padding: 32px 12px;
